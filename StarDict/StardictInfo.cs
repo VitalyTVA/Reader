@@ -197,4 +197,7 @@ namespace StarDict {
             return System.Text.Encoding.UTF8.GetString(buffer, 0, buffer.Length);
         }
     }
+    public enum DictFileKind {
+        ifo, idx, dict
+    }
 }
